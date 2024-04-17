@@ -1,0 +1,54 @@
+
+.container {
+    margin-top: -2.4rem;
+}
+
+form {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.list {
+    margin-top: 2.4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.6rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1.6rem;
+    margin-bottom: 6.4rem;
+}
+.infoRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span + span {
+        margin-left: 0.8rem;
+    }
+}
+
+.created {
+    color: var(--blue);
+    font-weight: var(--font-weight-bold);
+}
+
+.finished {
+    color: var(--purple);
+    font-weight: var(--font-weight-bold);
+}
+
+.counter {
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    padding: 0.2rem 0.8rem;
+    border-radius: 999px;
+    font-size: var(--font-size-xs);
+}
